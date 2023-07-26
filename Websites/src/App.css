@@ -1,0 +1,155 @@
+:root {
+  --background-container: var(#453d7a);
+  
+  --font-blue-mui: var(rgb(185, 177, 237));
+  --font-link: var(rgb(104, 59, 218));
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+Button {
+  background-color: transparent;
+  padding: 0;
+  border-width: none;
+  display: auto;
+}
+
+Button:hover,
+Button:active,
+Button.active
+ {
+  background-color: #C5B873;
+  transition: 1ms ease-in-out;
+}
+.Margin-top-bottom {
+  margin: 30px 0;
+}
+.Padding-100{
+  padding: 100px;
+}
+.Main-font {
+  font-family: 'montserrat';
+}
+.Main-Container {
+  background-color: #001132;
+  /* height: 100vh; */
+}
+.D-f {
+  display: flex;
+}
+.D-f-column {
+  flex-direction: column;
+}
+.D-f-container{
+  flex-wrap: wrap;
+  flex: 100%;
+}
+.D-f-center{
+  align-items: center;
+  justify-content: center;
+}
+.D-f-align-center {
+  align-items: center;
+}
+.D-f-left {
+  flex: 50%;
+}
+.D-f-right {
+  flex: 50%;
+}
+.Font-blue-1 {
+  color: white;
+}
+.Font-size-content {
+  font-size: 50px;
+  font-weight: bold;
+}
+.Content1-box {
+  border: 1px solid rgba(245, 245, 245, 0.466);
+  border-radius: 20px;
+  background-color: #021740d5;
+  display: flex;
+  flex: 100%;
+  box-shadow: 0px 0px 2px 2px rgb(196 168 168);
+}
+.Content1-box-left {
+  flex: 50%;
+}
+.Content1-box-right {
+  flex: 50%;
+}
+.Mar-top-1 {
+  margin-top: 90px;
+}
+.Font-NoDecor {
+  text-decoration: none;
+  list-style: none;
+}
+.Footer-container {
+  padding: 20px 50px;
+  background: #332f3f;
+  border-top: 1px solid #282c34e3;
+  color: skyblue;
+}
+.Link-mine {
+  color: rgb(104, 59, 218);
+}
+@media (max-width : 800px) {
+  .D-f-left,
+  .D-f-right{
+    flex: 100%;
+  }
+}
+
+
+/* BASE WEB LANDING SITE */
+/* Register */
+
+/* Navbar */
+
+/* Download */
+
+/* Discover */
+
+/* About Us */
+
+
+/* Animated Code Below This  */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

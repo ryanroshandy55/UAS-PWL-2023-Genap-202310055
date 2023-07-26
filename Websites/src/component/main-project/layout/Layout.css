@@ -1,0 +1,8 @@
+.layout-cover {
+    width:100vw;
+    height: 100vh;
+    background-color: #292929;
+}
+.layout-padding {
+    padding: 6px 4px;
+}

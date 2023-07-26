@@ -1,0 +1,25 @@
+{ 
+    height:'100vh'; 
+    background-color: 'radial-gradient(150.47% 77.76% at -2.92% 101.27%, rgba(29, 29, 29, 0.20) 0%, rgba(68, 68, 68, 0.20) 7.12%, rgba(0, 0, 0, 0.00) 48.11%, rgba(18, 18, 18, 0.20) 100%), linear-gradient(226deg, #070E27 0%, #05060B 6.37%, #000 46.88%, #041140 97.97%)';
+    box-shadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'; 
+    display:'flex'; 
+    align-items:'center';
+    justify-content:'center'
+  }
+
+// const theme = createTheme({
+	// 	palette: {
+	// 		primary: {
+	// 			light: '#757ce8',
+	// 			main: '#3f50b5',
+	// 			dark: '#002884',
+	// 			contrastText: '#fff',
+	// 		},
+	// 		secondary: {
+	// 			light: '#ff7961',
+	// 			main: '#f44336',
+	// 			dark: '#ba000d',
+	// 			contrastText: '#000',
+	// 		},
+	// 	},
+	// });
